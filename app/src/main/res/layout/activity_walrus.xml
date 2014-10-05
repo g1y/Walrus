@@ -18,7 +18,9 @@
         android:textSize="24sp"
         android:id="@+id/walrusBanner"
         android:textColor="#FFD9D7AC"
-        android:singleLine="true" />
+        android:singleLine="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"

@@ -2,16 +2,20 @@ package com.guywmoore.walrus;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
 
 public class WalrusActivity extends Activity {
+
+    public static final String TAG = WalrusActivity.class.getSimpleName();
 
     private FactManger mWalrusFactManager;
     @Override
@@ -33,6 +37,8 @@ public class WalrusActivity extends Activity {
                 factLabel.setText(mWalrusFactManager.getFact());
             }
         });
+
+        Log.d(TAG, "We are logging from the onCreate() method");
     }
 
 
