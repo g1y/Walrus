@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Walrus</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="factArray">
+        <item>
+            A male bull walrus can weigh up to 2 tons.
+        </item>
+        <item>
+            Walruses turn their front flippers forward to aid in movement on land.
+        </item>
+        <item>
+            Walruses' front flippers have five digits.
+        </item>
+        <item>
+            Male walruses have special air sacks to make bell-like noises.
+        </item>
+        <item>
+            Walruses eat clams, mussels and other bottom dwelling organism that they locate
+            with their whiskers.
+        </item>
+        <item>
+            The worldwide walrus population is about 250,00 animals.
+        </item>
+        <item>
+            Walruses are very social and congregate in large numbers.
+        </item>
+        <item>
+            Sometimes walruses will eat carcasses of young seals when food
+            is scarce.
+        </item>
+
+        <item>
+            Female and male walruses form different herds during non-breeding season.
+        </item>
+    </string-array>
+
+</resources>
